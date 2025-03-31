@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         var inputPassword: TextInputEditText = findViewById(R.id.input_password)
         var tombolLogin: Button = findViewById(R.id.button_login)
 
+        // New Line
         tombolLogin.setOnClickListener {
             Toast.makeText(this, inputUsername.text.toString(), Toast.LENGTH_SHORT).show()
         }
